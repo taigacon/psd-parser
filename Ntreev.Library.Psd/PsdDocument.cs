@@ -155,6 +155,11 @@ namespace Ntreev.Library.Psd
 
         #region IPsdLayer
 
+        public bool IsVisible
+        {
+	        get { return true; }
+        }
+
         IPsdLayer IPsdLayer.Parent
         {
             get { return null; }
